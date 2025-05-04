@@ -153,3 +153,23 @@ CMD [ "prove", "-l", "-r", "-j", "2", "t" ]
 FROM server AS production
 
 USER metacpan
+
+################### Playwright Server
+FROM server AS playwright
+USER root
+
+RUN    --mount=type=cache,target=/root/.perl-cpm,sharing=private \
+<<EOT
+    cpm install --show-build-log-on-failure Devel::Cover
+EOT
+
+RUN mkdir -p /app/cover_db && chown metacpan:users /app/cover_db
+
+USER metacpan
+
+# Enable coverage for plackup
+ENV PERL5OPT=-MDevel::Cover=-db,/app/cover_db,-ignore,^local/,^templates/,^t/,yaml$
+
+# Run plackup with coverage instead of uwsgi. the PERL5OPT seems to make uwsgi
+# unhappy.
+CMD [ "/app/local/bin/plackup", "-p", "8000", "app.psgi" ]
