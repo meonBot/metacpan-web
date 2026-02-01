@@ -244,18 +244,18 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
-  CPAN-Meta-2.150011
-    pathname: R/RJ/RJBS/CPAN-Meta-2.150011.tar.gz
+  CPAN-Meta-2.150012
+    pathname: R/RJ/RJBS/CPAN-Meta-2.150012.tar.gz
     provides:
-      CPAN::Meta 2.150011
-      CPAN::Meta::Converter 2.150011
-      CPAN::Meta::Feature 2.150011
-      CPAN::Meta::History 2.150011
-      CPAN::Meta::Merge 2.150011
-      CPAN::Meta::Prereqs 2.150011
-      CPAN::Meta::Spec 2.150011
-      CPAN::Meta::Validator 2.150011
-      Parse::CPAN::Meta 2.150011
+      CPAN::Meta 2.150012
+      CPAN::Meta::Converter 2.150012
+      CPAN::Meta::Feature 2.150012
+      CPAN::Meta::History 2.150012
+      CPAN::Meta::Merge 2.150012
+      CPAN::Meta::Prereqs 2.150012
+      CPAN::Meta::Spec 2.150012
+      CPAN::Meta::Validator 2.150012
+      Parse::CPAN::Meta 2.150012
     requirements:
       CPAN::Meta::Requirements 2.121
       CPAN::Meta::YAML 0.011
@@ -4467,38 +4467,38 @@ DISTRIBUTIONS
       Sub::Exporter::Progressive 0.001013
     requirements:
       ExtUtils::MakeMaker 0
-  Sub-HandlesVia-0.052000
-    pathname: T/TO/TOBYINK/Sub-HandlesVia-0.052000.tar.gz
+  Sub-HandlesVia-0.053003
+    pathname: T/TO/TOBYINK/Sub-HandlesVia-0.053003.tar.gz
     provides:
-      Sub::HandlesVia 0.052000
-      Sub::HandlesVia::CodeGenerator 0.052000
-      Sub::HandlesVia::Declare 0.052000
-      Sub::HandlesVia::Handler 0.052000
-      Sub::HandlesVia::Handler::CodeRef 0.052000
-      Sub::HandlesVia::Handler::Traditional 0.052000
-      Sub::HandlesVia::HandlerLibrary 0.052000
-      Sub::HandlesVia::HandlerLibrary::Array 0.052000
-      Sub::HandlesVia::HandlerLibrary::Blessed 0.052000
-      Sub::HandlesVia::HandlerLibrary::Bool 0.052000
-      Sub::HandlesVia::HandlerLibrary::Code 0.052000
-      Sub::HandlesVia::HandlerLibrary::Counter 0.052000
-      Sub::HandlesVia::HandlerLibrary::Enum 0.052000
-      Sub::HandlesVia::HandlerLibrary::Hash 0.052000
-      Sub::HandlesVia::HandlerLibrary::Number 0.052000
-      Sub::HandlesVia::HandlerLibrary::Scalar 0.052000
-      Sub::HandlesVia::HandlerLibrary::String 0.052000
+      Sub::HandlesVia 0.053003
+      Sub::HandlesVia::CodeGenerator 0.053003
+      Sub::HandlesVia::Declare 0.053003
+      Sub::HandlesVia::Handler 0.053003
+      Sub::HandlesVia::Handler::CodeRef 0.053003
+      Sub::HandlesVia::Handler::Traditional 0.053003
+      Sub::HandlesVia::HandlerLibrary 0.053003
+      Sub::HandlesVia::HandlerLibrary::Array 0.053003
+      Sub::HandlesVia::HandlerLibrary::Blessed 0.053003
+      Sub::HandlesVia::HandlerLibrary::Bool 0.053003
+      Sub::HandlesVia::HandlerLibrary::Code 0.053003
+      Sub::HandlesVia::HandlerLibrary::Counter 0.053003
+      Sub::HandlesVia::HandlerLibrary::Enum 0.053003
+      Sub::HandlesVia::HandlerLibrary::Hash 0.053003
+      Sub::HandlesVia::HandlerLibrary::Number 0.053003
+      Sub::HandlesVia::HandlerLibrary::Scalar 0.053003
+      Sub::HandlesVia::HandlerLibrary::String 0.053003
       Sub::HandlesVia::Mite undef
-      Sub::HandlesVia::Toolkit 0.052000
-      Sub::HandlesVia::Toolkit::Mite 0.052000
-      Sub::HandlesVia::Toolkit::Moo 0.052000
-      Sub::HandlesVia::Toolkit::Moose 0.052000
-      Sub::HandlesVia::Toolkit::Moose::PackageTrait 0.052000
-      Sub::HandlesVia::Toolkit::Moose::RoleTrait 0.052000
-      Sub::HandlesVia::Toolkit::Mouse 0.052000
-      Sub::HandlesVia::Toolkit::Mouse::PackageTrait 0.052000
-      Sub::HandlesVia::Toolkit::Mouse::RoleTrait 0.052000
-      Sub::HandlesVia::Toolkit::ObjectPad 0.052000
-      Sub::HandlesVia::Toolkit::Plain 0.052000
+      Sub::HandlesVia::Toolkit 0.053003
+      Sub::HandlesVia::Toolkit::Mite 0.053003
+      Sub::HandlesVia::Toolkit::Moo 0.053003
+      Sub::HandlesVia::Toolkit::Moose 0.053003
+      Sub::HandlesVia::Toolkit::Moose::PackageTrait 0.053003
+      Sub::HandlesVia::Toolkit::Moose::RoleTrait 0.053003
+      Sub::HandlesVia::Toolkit::Mouse 0.053003
+      Sub::HandlesVia::Toolkit::Mouse::PackageTrait 0.053003
+      Sub::HandlesVia::Toolkit::Mouse::RoleTrait 0.053003
+      Sub::HandlesVia::Toolkit::ObjectPad 0.053003
+      Sub::HandlesVia::Toolkit::Plain 0.053003
     requirements:
       Class::Method::Modifiers 0
       Exporter::Shiny 0
