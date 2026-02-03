@@ -6,7 +6,7 @@ const gtag = function () {
 };
 
 const ga = document.createElement('script');
-ga.src =  `https://www.googletagmanager.com/gtag/js?id=${ gtag_id }`;
+ga.src = `https://www.googletagmanager.com/gtag/js?id=${gtag_id}`;
 ga.async = true;
 document.head.appendChild(ga);
 
