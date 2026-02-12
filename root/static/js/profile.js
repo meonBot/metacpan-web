@@ -3,7 +3,7 @@
 function rewriteURL(link) {
     const url = link.dataset.urlTemplate;
     const input = link.parentNode.previousElementSibling;
-    link.href = url.replace('%s', input.value);
+    link.href = url.replace('%s', encodeURIComponent(input.value));
     return true;
 }
 
