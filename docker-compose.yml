@@ -32,5 +32,23 @@ services:
       watch:
         - path: ./cpanfile
           action: rebuild
+  test:
+    profiles:
+      - test
+    build:
+      context: .
+      target: test
+    volumes:
+      - './:/app/'
+      - 'web-assets:/app/root/assets/'
+      - '/app/local'
+    environment:
+      COLUMNS: 96
+    init: true
+    stdin_open: true
+    tty: true
+    depends_on:
+      - web-asset-build
+    command: ['prove', '-lvr', 't']
 volumes:
   web-assets:

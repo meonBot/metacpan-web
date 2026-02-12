@@ -8,6 +8,7 @@
     - [Building Static Assets](#building-static-assets)
     - [Installing on macOS](#installing-on-macos)
   - [Running Tests](#running-tests)
+    - [Running Tests with Docker Compose](#running-tests-with-docker-compose)
   - [Running the App](#running-the-app)
   - [Local Git and testing considerations](#local-git-and-testing-considerations)
   - [Local Configuration Changes](#local-configuration-changes)
@@ -74,6 +75,20 @@ You can use the supplied wrapper around `prove` to run tests:
 
 To run the tests in parallel, add `-j8` (or however many CPUs you have) to the
 `prove` command.
+
+### Running Tests with Docker Compose
+
+Run all tests using the `test` profile:
+
+```bash
+docker compose --profile test run --rm test
+```
+
+Run an arbitrary command:
+
+```bash
+docker compose --profile test run --rm test prove -lvr t/controller/search.t
+```
 
 ## Running the App
 
