@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+
+# Wrapper for plackup that enables Devel::Cover and handles SIGTERM.
+# PID 1 in Docker ignores SIGTERM by default, and even with --init,
+# SIGTERM kills the process without running END blocks. This handler
+# ensures Devel::Cover's END block writes coverage data on shutdown.
+
+$SIG{TERM} = sub { exit 0 };
+do '/app/local/bin/plackup' or die $@;

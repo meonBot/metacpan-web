@@ -79,7 +79,7 @@ jobs:
       - name: Start playwright server
         id: start-container
         run: >
-          CONTAINER_ID=$(docker run -d -i -p 5001:8000
+          CONTAINER_ID=$(docker run -d --init -i -p 5001:8000
           ${{ steps.docker-build-playwright.outputs.imageid }})
           && echo "container_id=$CONTAINER_ID" >> $GITHUB_OUTPUT
           || (echo "Failed to start container" && exit 1)

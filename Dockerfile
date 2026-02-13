@@ -167,9 +167,6 @@ RUN mkdir -p /app/cover_db && chown metacpan:users /app/cover_db
 
 USER metacpan
 
-# Enable coverage for plackup
 ENV PERL5OPT=-MDevel::Cover=-db,/app/cover_db,-ignore,^local/,^templates/,^t/,yaml$
 
-# Run plackup with coverage instead of uwsgi. the PERL5OPT seems to make uwsgi
-# unhappy.
-CMD [ "/app/local/bin/plackup", "-p", "8000", "app.psgi" ]
+CMD ["/app/bin/plackup-cover", "-p", "8000", "app.psgi"]
