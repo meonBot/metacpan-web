@@ -1,22 +1,22 @@
-%%  cascade base::about::markdown
+%%  cascade base::about::markdown {
+%%      title => $title || 'Contact Us',
+%%  }
 %%  override about -> {
-# Contact
+# Contact Us
 
 ## Mastodon
 
-Follow our Mastodon account for latest updates around MetaCPAN: [@metacpan@fosstodon.org](https://fosstodon.org/@metacpan)
+Follow our Mastodon account for the latest updates around MetaCPAN:
+[@metacpan@fosstodon.org](https://fosstodon.org/@metacpan)
 
 ## IRC
 
-This is the best place to discuss new ideas and get involved. Join us on [#metacpan on irc.perl.org](irc://irc.perl.org/metacpan).
+IRC is the best place to discuss new ideas and get involved. Join us on [#metacpan on irc.perl.org](irc://irc.perl.org/metacpan).
 
-## Email
+## Getting Help with Perl (but not MetaCPAN)
 
-The MetaCPAN team is available directly via email at
-[noc@metacpan.org](mailto:noc@metacpan.org). This address is for issues
-directly related to MetaCPAN (like sponsorship inquiries). If you need
-technical help with something other than MetaCPAN (like installing a module),
-we encourage you to ask a question on:
+If you need technical help with something other than MetaCPAN (like installing
+a module), we encourage you to ask a question on:
 
 * [StackOverflow](https://stackoverflow.com/questions/tagged/perl)
 * [/r/perl](https://www.reddit.com/r/perl)
@@ -27,16 +27,45 @@ If you do email us with a question not directly related to MetaCPAN, we will
 redirect you to the previously mentioned resources. It's not that we don't want
 to help, but there are better ways for you to get this help.
 
+
+## Bug Reporting
+
+Bugs in the behaviour of this site can be reported at
+[GitHub](https://github.com/metacpan/metacpan-web). Feel free to post all bug
+reports related to this web site and web service here. If your reports belong
+in different MetaCPAN project, we will happily move your reports to that
+location. If in doubt, open a new issue. If you would like to discuss a CPAN
+module or Perl the language, see the [Getting Help with Perl](contact#getting-help-with-perl-(but-not-metacpan)) section above.
+
+## Email
+
+Email should be used if:
+
+- you would like to inquire about sponsorship
+- you want to report a bug but do not have a GitHub account
+- you want to report a sensitive matter which should not be publicly disclosed
+
+For these cases the MetaCPAN team is available directly via email at
+[noc@metacpan.org](mailto:noc@metacpan.org).
+
+Bug reports which could have been created on GitHub but are instead sent via email
+tend to have a much slower response time than they would have on GitHub.
+
+We are all busy people. We would like to help you, but filing tickets via email
+places the burden on us to resolve your issue. Opening a ticket on GitHub
+allows the community to help you as well.
+
 # Source Code
 
-MetaCPAN consists of two projects:
+MetaCPAN consists of [many projects](https://github.com/metacpan). However, if
+you are new to contributing, you are most likely interested in these two:
 
 ## Front End
 
-This is what you are looking at right now. The source code is on [github](https://github.com/metacpan/metacpan-web).
+This is what you are looking at right now. The source code is at [github.com/metacpan/metacpan-web](https://github.com/metacpan/metacpan-web).
 
 ## Back End
 
-The front end is a slim wrapper around the back end. It provides a REST API to data around CPAN and its ecosystem. The code is also on [github](https://github.com/metacpan/metacpan-api).
+The front end is a slim wrapper around the back end. It provides a REST API to data around CPAN and its ecosystem. The code is at [github.com/metacpan/metacpan-api](https://github.com/metacpan/metacpan-api).
 
 %% }

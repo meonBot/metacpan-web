@@ -2,12 +2,12 @@
 %%      title => $title || 'MetaCPAN Metadata',
 %%  }
 %%  override about -> {
-## Metadata
+# Metadata
 
 MetaCPAN uses the [CPAN::Meta spec](/pod/CPAN::Meta::Spec) for much of the
 information about a distribution.  It also supports some custom meta fields.
 
-### Contributors
+## Contributors
 
 Distributions can provide a list of contributors using the `x_contributors`
 field in the `META.json` or `META.yml` file.  The list will be presented below
@@ -38,7 +38,7 @@ In `META.json`:
 [Dist::Zilla::Plugin::Git::Contributors](/pod/Dist::Zilla::Plugin::Git::Contributors)
 plugin.
 
-### Chat
+## Chat
 
 A link to an chat channel can be provided using the `x_chat` or `x_IRC` (or
 `IRC` in `META.yml`) resource field. This can be either in the form of a single
@@ -82,9 +82,9 @@ Or:
     },
     ...
 
-## Files
+# Files
 
-### Change Logs
+## Change Logs
 
 MetaCPAN will look for change logs in the following files: `CHANGES`, `Changes`,
 `ChangeLog`, `Changelog`, `CHANGELOG`, and `NEWS`.  These will be shown when

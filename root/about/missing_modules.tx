@@ -1,6 +1,8 @@
-%%  cascade base::about::markdown
+%%  cascade base::about::markdown {
+%%      title => $title || 'Missing Modules',
+%%  }
 %%  override about -> {
-# Missing module ? - why can I not find a specific module?
+# Why can I not find a specific module?
 
 ## Is it in the index?
 
