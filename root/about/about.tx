@@ -1,4 +1,6 @@
-%%  cascade base::about::markdown
+%%  cascade base::about::markdown {
+%%      title => $title || 'About MetaCPAN',
+%%  }
 %%  override about -> {
 # About MetaCPAN
 

@@ -2,7 +2,7 @@
 %%      title => $title || 'Using MetaCPAN as a mirror',
 %%  }
 %%  override about -> {
-## MetaCPAN Mirror
+# MetaCPAN Mirror
 
 MetaCPAN provides an alternate mirror for CPAN, which is also a BackPAN (it
 includes deleted releases). It can be used if there are issues with the primary
@@ -10,9 +10,9 @@ mirror, or you want to access older deleted releases via the `cpan` client.
 
 The address for the mirror is https://cpan.metacpan.org/
 
-### Configuring the Mirror
+## Configuring the Mirror
 
-#### `cpanm`
+### `cpanm`
 
 `cpanm` can use the MetaCPAN mirror using the `-M` option:
 
@@ -28,7 +28,7 @@ These options can be set more permanently using the `PERL_CPANM_OPT` environment
     export PERL_CPANM_OPT='-M https://cpan.metacpan.org/ --metacpan'
     cpanm Module::To::Install
 
-#### `cpan`
+### `cpan`
 
 `CPAN.pm` can be configured to use an alternate mirror using the `urllist`
 configuration setting. It also must be configured to use the `urllist` option

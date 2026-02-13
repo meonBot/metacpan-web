@@ -1,4 +1,6 @@
-%%  cascade base::about::markdown
+%%  cascade base::about::markdown {
+%%      title => $title || 'Contact Us',
+%%  }
 %%  override about -> {
 # Contact Us
 
