@@ -680,7 +680,7 @@ money...
     </table>
   </div>
   <div class="sponsor-footer">
-    If you are interested in sponsoring MetaCPAN, please use https://opencollective.com/metacpan-core
+    If you are interested in sponsoring MetaCPAN, please use <a target="_blank" href="https://opencollective.com/metacpan-core" rel="noopener nofollow">our open collective account</a>
     or contact us at <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>.
   </div>
 </div>
