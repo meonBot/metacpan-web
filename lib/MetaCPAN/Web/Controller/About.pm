@@ -34,7 +34,7 @@ sub contact : Local : Args(0) {
     my ( $self, $c ) = @_;
 }
 
-sub meta_hack : Local : Args(0) {
+sub contributing : Local : Args(0) {
     my ( $self, $c ) = @_;
 }
 
@@ -44,11 +44,7 @@ sub sponsors : Local : Args(0) {
     my ( $self, $c ) = @_;
 }
 
-sub development : Local : Args(0) {
-    my ( $self, $c ) = @_;
-}
-
-sub missing_modules : Local : Args(0) {
+sub sponsors_past : Path('sponsors/past') : Args(0) {
     my ( $self, $c ) = @_;
 }
 
@@ -58,6 +54,21 @@ sub faq : Local : Args(0) {
 
 sub metadata : Local : Args(0) {
     my ( $self, $c ) = @_;
+}
+
+sub development : Local : Args(0) {
+    my ( $self, $c ) = @_;
+    $c->res->redirect( '/about/contributing', 301 );
+}
+
+sub missing_modules : Local : Args(0) {
+    my ( $self, $c ) = @_;
+    $c->res->redirect( '/about/faq#why-is-a-specific-module-not-found', 301 );
+}
+
+sub meta_hack : Local : Args(0) {
+    my ( $self, $c ) = @_;
+    $c->res->redirect( '/about/sponsors', 301 );
 }
 
 sub stats : Local : Args(0) {

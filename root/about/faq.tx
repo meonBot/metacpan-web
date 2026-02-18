@@ -4,7 +4,22 @@
 %%  override about -> {
 # FAQ's answered
 
-## What third-party sites does MetaCPAN use?
+* [What third-party sites does MetaCPAN use](#what-third-party-sites-does-metacpan-use)
+* [How to list all the Plack Middleware](#how-to-list-all-the-plack-middleware)
+* [How to list all the modules in a name-space](#how-to-list-all-the-modules-in-a-name-space)
+* [Special search expressions](#special-search-expressions)
+* [Why is a specific module not found](#why-is-a-specific-module-not-found)
+* [What does the river stage indicate](#what-does-the-river-stage-indicate)
+* [What does the bus factor indicate](#what-does-the-bus-factor-indicate)
+* [How can I get involved](#how-can-i-get-involved)
+* [Where can I find the API docs](#where-can-i-find-the-api-docs)
+* [How can I try the API](#how-can-i-try-the-api)
+* [Why is my PAUSE account not linking](#why-is-my-pause-account-not-linking)
+* [Can you delete my module](#can-you-delete-my-module)
+* [What is the relation of MetaCPAN to author.json and PAUSE account data](#what-is-the-relation-of-metacpan-to-author.json-and-pause-account-data)
+* [How to adopt a distribution](#how-to-adopt-a-distribution)
+
+## What third-party sites does MetaCPAN use
 
 * [CPAN](https://www.cpan.org/) is where all the Perl modules live.
 MetaCPAN 'just' indexes those files.
@@ -21,18 +36,18 @@ Many distributions indicate it as their public VCS. Some of them even mark GitHu
 issue tracking system. MetaCPAN links to the GitHub repository and bug tracking system of each distributions
 if the author has included the information in the META files.
 
-## How to list all the Plack Middleware?
+## How to list all the Plack Middleware
 
 Search for <a href="/search?q=module:Plack::Middleware">module:Plack::Middleware</a>
 
-## In general, how to list all the modules in a name-space?
+## How to list all the modules in a name-space
 
 Type in <em>module:</em> and the namespace such as <a href="/search?q=module:Catalyst::Plugin">Catalyst::Plugin</a>,
 <a href="/search?q=module:Dancer::Plugin">Dancer::Plugin</a>,
 <a href="/search?q=module:Mojolicious::Plugin">Mojolicious::Plugin</a>,
 or <a href="/search?q=module:Perl::Critic::Policy">Perl::Critic::Policy</a>.
 
-## A non-comprehensive list of special search expressions:
+## Special search expressions
 
 These search-terms can be combined with each other and regular search term.
 
@@ -44,18 +59,38 @@ These search-terms can be combined with each other and regular search term.
 Wildcards: ? matches a single character, * matches any number of characters
 ( e.g. [version:1.*](/search?q=version%3A1.*) and [version:1.?](/search?q=version%3A1.?) )
 
-## Why can't I find a specific module?
+## Why is a specific module not found
 
-See our [missing module](/about/missing_modules) page.
+### Is it in the index
 
-## What does the river stage indicate?
+MetaCPAN uses the [PAUSE](https://pause.perl.org/)-generated
+[02packages.details.txt](https://cpan.metacpan.org/modules/02packages.details.txt)
+file. If it's not in there, then the module author will need to fix this.
+(Authors are usually emailed about this when they upload a distribution).
+
+### Is the distribution POD only with no package
+
+A distribution must contain a package, even if it is 100% POD. A good example
+of this done correctly is [Catalyst::Manual](/pod/Catalyst::Manual).  Check
+the package declaration in the source of this file.  That's the key to getting
+your pure POD distribution indexed by PAUSE.
+
+### I still think this is a bug
+
+We do have bugs, so this is possible, please help by...
+
+ * Please check existing [issues](https://github.com/metacpan/metacpan-web/issues/)
+ * Create an [issue](https://github.com/metacpan/metacpan-web/issues/new)
+ * Become a [contributor](/about/contributing)
+
+## What does the river stage indicate
 
 The river stage of a distribution is an indication of how much of CPAN depends on that distribution.
 Distributions in river stages 0-2 may not impact much of the ecosystem with breaking changes or failing tests,
 but distributions in river stages 4-5 must be updated with the utmost care.
 See [River of CPAN](http://neilb.org/2015/04/20/river-of-cpan.html).
 
-## What does the bus factor indicate?
+## What does the bus factor indicate
 
 The bus factor of a distribution is a count of CPAN authors who have permissions to release that distribution
 who have made any releases to CPAN in the past two years (including other distributions).
@@ -63,31 +98,31 @@ This is an indication of how many people are likely to be able to release critic
 Higher bus factors are crucial for distributions in a higher river stage, as more of CPAN depends on them.
 See [CPAN Bus Factor](https://www.olafalders.com/2021/06/30/cpan-bus-factor/).
 
-## How can I get involved / who is involved?
+## How can I get involved
 
 * [Contact us](/about/contact)
-* [Development information](/about/development)
+* [Contributing](/about/contributing)
 * [Who else has contributed?](/about/contributors)
 
-## Where can I find the API docs?
+## Where can I find the API docs
 
 The API docs can be found by visiting [api.metacpan.org](https://api.metacpan.org).
 API requests need to be sent to api.metacpan.org/v1/.
 
-## How can I try the API?
+## How can I try the API
 
 [https://explorer.metacpan.org/](https://explorer.metacpan.org/) is an easy way
 to try sending queries to the back-end.
 
-## Why can't I link my PAUSE account?
+## Why is my PAUSE account not linking
 
-### Is your PAUSE email set up?
+### Is your PAUSE email set up
 
 If you are a module author you can link your [PAUSE](https://pause.perl.org/)
 account to your MetaCPAN account. But you must configure the email address
 forwarding in your PAUSE account for this to work.
 
-### Connecting one identity disconnects another?
+### Connecting one identity disconnects another
 
 If you can only connect your account to GitHub _or_ PAUSE
 (e.g. connecting to one disconnects the other), it is usually because
@@ -100,7 +135,7 @@ To fix this you need to manually merge your identities into a single account:
 2. Go to identities and disconnect that account
 3. Log in with your primary account and connect the secondary
 
-### Trying to connect PAUSE just gives you JSON and doesn't work?
+### Trying to connect PAUSE just gives you JSON and does not work
 
 It is possible to get your account into an inconsistent state where it won't
 connect to PAUSE - particularly if you've connected via multiple identities,
@@ -116,11 +151,11 @@ To fix this:
 Make sure that you use the same browser for all of the steps - including
 opening the link in the email from MetaCPAN.
 
-### Favorites not displaying on author page?
+### Favorites not displaying on author page
 
 Please see [this discussion](https://github.com/metacpan/metacpan-web/issues/852).
 
-## Oops! I made a mistake.  Can you delete my module?
+## Can you delete my module
 
 Requests to have modules removed from the CPAN should be directed at the PAUSE
 admins.  Keep in mind that, if a module contains sensitive information, just
@@ -130,13 +165,7 @@ the BackPAN.
 If the PAUSE admins approve your request, have them CC noc@metacpan.org so that
 we can push the right buttons to have your work removed from MetaCPAN as well.
 
-## Can I _automatically_ redirect links pointing at search.cpan.org to metacpan.org?
-
-As [announced](https://log.perl.org/2018/05/goodbye-search-dot-cpan-dot-org.html)
-by the Perl NOC, all traffic will be redirected to from search.cpan.org to MetaCPAN.org as
-of 25th of June 2018.
-
-## What is the relation of MetaCPAN to author-*.json and the data in a PAUSE account?
+## What is the relation of MetaCPAN to author.json and PAUSE account data
 
 Every CPAN module author has an account on [PAUSE](https://pause.perl.org/pause/query).
 That account has some profile data in it (full name, ascii name, e-mail, and homepage).
@@ -144,47 +173,47 @@ Authors can edit those at [Edit Account Info](https://pause.perl.org/pause/authe
 This information is collected and distributed by PAUSE via the
 [00whois.xml](https://www.cpan.org/authors/00whois.xml) file.
 
-In addition PAUSE users can upload a file called author.json or author-1.0.json to the root
+In addition PAUSE users can upload a file called `author.json` or `author-1.0.json` to the root
 of their PAUSE account with other information.
 
 When someone asks MetaCPAN for information about an author (a PAUSE account),
 MetaCPAN will provide the data from the MetaCPAN account that was associated
 with the given PAUSE account. If no such association exists then MetaCPAN
 will default to the data found in the PAUSE account of the user
-(via the 00whois.xml file), and to the content
-of the latest author-*.json file found in the PAUSE account of that user.
+(via the `00whois.xml` file), and to the content
+of the latest `author-*.json` file found in the PAUSE account of that user.
 (If there is such a file.)
 
 Once a PAUSE account is connected to a MetaCPAN account, the information
 in the MetaCPAN account is initialized from those sources
-(00whois.xml and author-*.json) and from that point MetaCPAN disregards
+(`00whois.xml` and `author-*.json`) and from that point MetaCPAN disregards
 any changes made to those files.
 
 If you, as a PAUSE author would like to keep them in sync, you can always export your MetaCPAN
-account information in json format by accessing https://api.metacpan.org/v1/author/PAUSEID
-(replacing the word PAUSEID by your own PAUSEID). Then you can upload the result as author-*.json
+account information in json format by accessing https://api.metacpan.org/v1/author/`PAUSEID`
+(replacing the word `PAUSEID` by your own `PAUSEID`). Then you can upload the result as `author-*.json`
 with a higher version number than the last one you uploaded.
 The PAUSE account information need to be updated manually via
 [Edit Account Info](https://pause.perl.org/pause/authenquery?ACTION=edit_cred).
 
-## How to adopt a distribution?
+## How to adopt a distribution
 
 ### What does the "Take me over?", "Why not adopt me?", "Looking for help!" mean?
 
 CPAN Distributions can be marked by their authors (or by the CPAN admins when the author is not available)
 to be "up for adoption". This can be done by adding one of the following PAUSE accounts
-as co-maintainers: ADOPTME, HANDOFF, or NEEDHELP. For a more detailed explanation
+as co-maintainers: `ADOPTME`, `HANDOFF`, or `NEEDHELP`. For a more detailed explanation
 read the post [Marking modules as 'available for adoption'](https://neilb.org/2013/08/07/adoptme.html).
 
 
-### How to become the maintainer or co-maintainer of a CPAN distribution?
+### How to become the maintainer or co-maintainer of a CPAN distribution
 
 See the description how to [adopt a CPAN module](https://neilb.org/2013/07/24/adopt-a-module.html)
 and check out the [CPAN adoption request template](https://neilb.org/2014/01/31/adoption-request.html).
 
 See also the list of [CPAN Adoption Candidates](https://neilb.org/adoption/).
 
-### How to mark a distribution that is up for adoption?
+### How to mark a distribution that is up for adoption
 
 If you are the maintainer of the distribution you can follow these steps:
 
@@ -192,13 +221,13 @@ If you are the maintainer of the distribution you can follow these steps:
 * Click on "Add Comaintainers"
 * Filter for the name of the distribution.
 * Check the box next to the name of the distribution.
-* Type in HANDOFF as userid.
+* Type in `HANDOFF` as userid.
 * Click on "Make Co-Maintainer"
 * Within an hour the change will show up on MetaCPAN.
 
-### How to remove the "adopt me" banner from the module?
+### How to remove the "adopt me" banner from the module
 
-Remove the author ADOPTME, HANDOFF, or NEEDHELP from the project.
+Remove the author `ADOPTME`, `HANDOFF`, or `NEEDHELP` from the project.
 
 * Visit [PAUSE](https://pause.perl.org/)
 * Click on "Remove Comaintainers".

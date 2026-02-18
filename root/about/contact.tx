@@ -55,17 +55,4 @@ We are all busy people. We would like to help you, but filing tickets via email
 places the burden on us to resolve your issue. Opening a ticket on GitHub
 allows the community to help you as well.
 
-# Source Code
-
-MetaCPAN consists of [many projects](https://github.com/metacpan). However, if
-you are new to contributing, you are most likely interested in these two:
-
-## Front End
-
-This is what you are looking at right now. The source code is at [github.com/metacpan/metacpan-web](https://github.com/metacpan/metacpan-web).
-
-## Back End
-
-The front end is a slim wrapper around the back end. It provides a REST API to data around CPAN and its ecosystem. The code is at [github.com/metacpan/metacpan-api](https://github.com/metacpan/metacpan-api).
-
 %% }

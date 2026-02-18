@@ -5,21 +5,27 @@
 %%  override left_nav_content -> {
 [%-
 for [
-  [ 'About MetaCPAN',         '/about' ],
-  [ 'Sponsor[s|ing]',         '/about/sponsors' ],
-  [ 'Contact',                '/about/contact' ],
-  [ 'Development',            '/about/development' ],
-  [ 'FAQ',                    '/about/faq' ],
-  [ 'Contributors',           '/about/contributors' ],
-  [ 'meta::hack',             '/about/meta_hack' ],
-  [ 'CPAN Mirror',            '/about/mirror' ],
-  [ 'Missing Modules',        '/about/missing_modules' ],
-  [ 'Distribution Metadata',  '/about/metadata' ],
+  [ 'General',                  '',                     1 ],
+  [ 'About MetaCPAN',           '/about',               0 ],
+  [ 'FAQ',                      '/about/faq',           0 ],
+  [ 'Contact',                  '/about/contact',       0 ],
+  [ 'Sponsors',                 '/about/sponsors',      0 ],
+  [ 'For Contributors',         '',                     1 ],
+  [ 'Contributing',             '/about/contributing',  0 ],
+  [ 'GitHub Leaderboard',       '/about/contributors',  0 ],
+  [ 'For Authors',              '',                     1 ],
+  [ 'Distribution Metadata',    '/about/metadata',      0 ],
+  [ 'CPAN Mirror',              '/about/mirror',        0 ],
 ] -> $l {
 %]
+%%  if $l.2 {
+<li class="nav-header">[% $l.0 %]</li>
+%%  }
+%%  else {
 <li class="[% if $current[$l.1] { 'active' } %]">
     <a href="[% $l.1 %]">[% $l.0 %]</a>
 </li>
+%%  }
 %%  }
 %%  }
 %%  after content_classes -> { ' about' }
