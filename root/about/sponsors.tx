@@ -26,11 +26,16 @@
     </div>
   </div>
 
+  <h2>Our Sponsors</h2>
+  <p>
+    These companies generously sponsor MetaCPAN through significant financial
+    contributions or equivalent in-kind services.
+  </p>
   <div class="sponsor">
     <table>
       <tr>
         <td>
-          <a target="_blank" rel="noopener nofollow" href="https://www.fastly.com/">
+          <a target="_blank" rel="noopener nofollow" href="https://opencagedata.com/">
             <img src="/static/images/sponsors/open-cage.svg" width="110" height="51">
           </a>
         </td>
@@ -86,13 +91,9 @@
         </td>
         <td>
           <p>
-            Hosting is generously sponsored by <a target="_blank"
-            rel="noopener nofollow"
+            <a target="_blank" rel="noopener nofollow"
             href="https://www.bytemark.co.uk/r/metacpan.org/">Bytemark
-            Hosting</a>.
-          </p>
-          <p>
-            Bytemark Hosting is the UK's "geek hosting outfit of choice"
+            Hosting</a> is the UK's "geek hosting outfit of choice"
             because its programmer &amp; network-engineer team have built it
             that way since 2002, with their own tools, software and technical
             expertise. They understand web applications and network
@@ -111,11 +112,6 @@
           </a>
         </td>
         <td>
-          <p>
-            Hosting is also generously sponsored by <a target="_blank"
-            rel="noopener nofollow" href="https://www.liquidweb.com/">Liquid
-            Web Inc.</a>
-          </p>
           <p>
             <a target="_blank" rel="noopener nofollow"
             href="https://www.liquidweb.com/">Liquid Web Inc.</a> is a
@@ -198,6 +194,59 @@
       </tr>
       <tr>
         <td>
+          <a target="_blank" rel="noopener nofollow" href="https://deriv.com/careers/">
+            <img src="/static/images/sponsors/deriv.svg" width="170">
+          </a>
+        </td>
+        <td>
+          <p>
+            <a target="_blank" rel="noopener nofollow"
+            href="https://deriv.com">Deriv</a> is one of the world's largest
+            online brokers.  <a target="_blank" rel="noopener nofollow"
+            href="https://deriv.com">Deriv</a> offers CFDs and other
+            derivatives on forex, indices, cryptocurrencies, commodities, and
+            synthetics to millions of registered users across the globe.
+          </p>
+          <p>
+            More than that, <a target="_blank" rel="noopener nofollow"
+            href="https://deriv.com">Deriv</a> heavily relies on CPAN (and
+            bring back a lot to it in return!) with its backend code being
+            written in modern Perl and some great names being part of the
+            company.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <h2>Our Supporters</h2>
+  <p>
+    These companies support MetaCPAN through donations or in-kind services.
+  </p>
+  <div class="sponsor">
+    <table>
+      <tr>
+        <td>
+          <a target="_blank" rel="noopener nofollow" href="https://www.mysociety.org/">
+            <img src="/static/images/sponsors/mysociety-logo-white-background.jpg" width="170">
+          </a>
+        </td>
+        <td>
+          <p>
+           <a target="_blank" rel="noopener nofollow"
+           href="https://www.mysociety.org/">mySociety</a> is a not for profit
+           group pioneering the use of online technologies to empower citizens
+           to take their first steps towards greater civic participation. We
+           work across four interlinked practice areas: Transparency,
+           Democracy, Climate and Community, each underpinned by research,
+           sector building through TICTeC and appropriate commercial work via
+           <a target="_blank" rel="noopener nofollow"
+           href="https://www.societyworks.org/">SocietyWorks</a>.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>
           <a target="_blank" rel="noopener nofollow" href="https://www.fastmail.com/">
             <img src="/static/images/sponsors/fastmail.svg" width="170">
           </a>
@@ -227,73 +276,28 @@
           </p>
         </td>
       </tr>
-      <tr>
-        <td>
-          <a target="_blank" rel="noopener nofollow" href="https://www.mysociety.org/">
-            <img src="/static/images/sponsors/mysociety-logo-white-background.jpg" width="170">
-          </a>
-        </td>
-        <td>
-          <p>
-           <a target="_blank" rel="noopener nofollow"
-           href="https://www.mysociety.org/">mySociety</a> is a not for profit
-           group pioneering the use of online technologies to empower citizens
-           to take their first steps towards greater civic participation. We
-           work across four interlinked practice areas: Transparency,
-           Democracy, Climate and Community, each underpinned by research,
-           sector building through TICTeC and appropriate commercial work via
-           <a target="_blank" rel="noopener nofollow"
-           href="https://www.societyworks.org/">SocietyWorks</a>.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a target="_blank" rel="noopener nofollow" href="https://github.com/">
-            <img src="/static/images/sponsors/github_logo.png">
-          </a>
-        </td>
-        <td>
-          <p>
-            <a target="_blank" rel="noopener nofollow"
-            href="https://github.com/">GitHub</a> supports MetaCPAN by
-            donating free private repositories.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a target="_blank" rel="noopener nofollow" href="https://deriv.com/careers/">
-            <img src="/static/images/sponsors/deriv.svg" width="170">
-          </a>
-        </td>
-        <td>
-          <p>
-            <a target="_blank" rel="noopener nofollow"
-            href="https://deriv.com">Deriv</a> is one of the world's largest
-            online brokers.  <a target="_blank" rel="noopener nofollow"
-            href="https://deriv.com">Deriv</a> offers CFDs and other
-            derivatives on forex, indices, cryptocurrencies, commodities, and
-            synthetics to millions of registered users across the globe.
-          </p>
-          <p>
-            More than that, <a target="_blank" rel="noopener nofollow"
-            href="https://deriv.com">Deriv</a> heavily relies on CPAN (and
-            bring back a lot to it in return!) with its backend code being
-            written in modern Perl and some great names being part of the
-            company.
-          </p>
-        </td>
-      </tr>
     </table>
   </div>
-  <div class="sponsor-footer">
-    If you are interested in sponsoring MetaCPAN, please use <a target="_blank" href="https://opencollective.com/metacpan-core" rel="noopener nofollow">our open collective account</a>
-    or contact us at <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>.
-  </div>
-  <div class="sponsor-footer">
+
+  <h2>Thanks</h2>
+  <p>
+    We also thank
+    <a target="_blank" rel="noopener nofollow" href="https://github.com/">GitHub</a>
+    and
+    <a target="_blank" rel="noopener nofollow" href="https://1password.com/">1Password</a>
+    for providing free accounts.
+  </p>
+
+  <h2>Past Sponsors</h2>
+  <p>
     We are also grateful to our <a href="/about/sponsors/past">past sponsors</a>
     who have supported MetaCPAN over the years.
-  </div>
+  </p>
+
+  <h2>Become a Sponsor</h2>
+  <p>
+    If you are interested in sponsoring MetaCPAN, please use <a target="_blank" href="https://opencollective.com/metacpan-core" rel="noopener nofollow">our open collective account</a>
+    or contact us at <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>.
+  </p>
 </div>
 %%  }
