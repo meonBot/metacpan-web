@@ -153,3 +153,20 @@ CMD [ "prove", "-l", "-r", "-j", "2", "t" ]
 FROM server AS production
 
 USER metacpan
+
+################### Playwright Server
+FROM server AS playwright
+USER root
+
+RUN    --mount=type=cache,target=/root/.perl-cpm,sharing=private \
+<<EOT
+    cpm install --show-build-log-on-failure Devel::Cover
+EOT
+
+RUN mkdir -p /app/cover_db && chown metacpan:users /app/cover_db
+
+USER metacpan
+
+ENV PERL5OPT=-MDevel::Cover=-db,/app/cover_db,-ignore,^local/,^templates/,^t/,yaml$
+
+CMD ["/app/bin/plackup-cover", "-p", "8000", "app.psgi"]
