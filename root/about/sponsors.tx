@@ -226,6 +226,27 @@
     </div>
   </div>
 
+  <!-- Keep listing until at least March 1, 2027 -->
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener" href="https://www.perlfoundation.org/">
+        <img src="/static/images/sponsors/perl_logo.png" alt="The Perl and Raku Foundation" width="60">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener"
+        href="https://www.perlfoundation.org/">The Perl and Raku
+        Foundation</a> (TPRF) has supported MetaCPAN in many ways over
+        the years,
+        including covering disk space costs, sponsoring MetaCPAN's
+        participation in the Outreach Program for Women in 2014, and
+        funding a year of managed hosting support through Digital
+        Craftsmen.
+      </p>
+    </div>
+  </div>
+
   <h2>Our Supporters</h2>
   <p>
     These organizations also contribute to MetaCPAN.

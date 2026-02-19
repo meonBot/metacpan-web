@@ -277,23 +277,6 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="http://www.perlfoundation.org/">
-        <img src="/static/images/sponsors/perl_logo.png" alt="The Perl Foundation" width="60">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="http://www.perlfoundation.org/">The Perl Foundation</a>
-        (TPF) supported MetaCPAN by covering disk space costs and
-        sponsoring MetaCPAN's participation in the Outreach Program for
-        Women in 2014.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
       <a target="_blank" rel="noopener nofollow" href="https://travis-ci.com">
         <img src="/static/images/sponsors/travis-ci.png" alt="Travis CI" width="140">
       </a>
