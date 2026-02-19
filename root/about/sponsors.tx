@@ -26,24 +26,23 @@
 
   <h2>Our Sponsors</h2>
   <p>
-    These companies generously sponsor MetaCPAN through significant financial
-    contributions or equivalent in-kind services.
+    These companies help keep MetaCPAN running.
   </p>
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://opencagedata.com/">
+      <a target="_blank" rel="noopener" href="https://opencagedata.com/">
         <img src="/static/images/sponsors/open-cage.svg" alt="OpenCage" width="140">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://opencagedata.com/">OpenCage</a> operates a highly-available,
-        enterprise level <a target="_blank" rel="noopener nofollow"
+        enterprise level <a target="_blank" rel="noopener"
         href="https://opencagedata.com/api">geocoding API</a> based
         on open data sources like OpenStreetMap. Need geocoding? Visit
-        OpenCage's comprehensive <a target="_blank" rel="noopener nofollow"
+        OpenCage's comprehensive <a target="_blank" rel="noopener"
         href="https://opencagedata.com/guides/how-to-compare-and-test-geocoding-services">geocoding buyer's
         guide</a>. OpenCage uses Perl extensively, and is proud to have sponsored
         MetaCPAN for many years.
@@ -53,13 +52,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://geolytica.com/">
+      <a target="_blank" rel="noopener" href="https://geolytica.com/">
         <img src="/static/images/sponsors/geocodelogo.svg" alt="Geolytica" width="65">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://geolytica.com/">Geolytica</a> -- Ground truth at the speed of life.
         A DaaS and SaaS company offering places data and geocoding based on
         geo data from the open web. We've used Perl since 2004 and still do
@@ -70,13 +69,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.fastly.com/">
+      <a target="_blank" rel="noopener" href="https://www.fastly.com/">
         <img src="/static/images/sponsors/fastly_logo.svg" alt="Fastly" width="120">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.fastly.com/">Fastly</a> provides us CDN
         services, so we are faster around the world.
       </p>
@@ -85,13 +84,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.bytemark.co.uk/r/metacpan.org/">
+      <a target="_blank" rel="noopener" href="https://www.bytemark.co.uk/r/metacpan.org/">
         <img src="/static/images/sponsors/bytemark_logo.svg" alt="Bytemark Hosting" width="150">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.bytemark.co.uk/r/metacpan.org/">Bytemark
         Hosting</a> is the UK's "geek hosting outfit of choice"
         because its programmer &amp; network-engineer team have built it
@@ -108,13 +107,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.liquidweb.com/">
+      <a target="_blank" rel="noopener" href="https://www.liquidweb.com/">
         <img src="/static/images/sponsors/liquidweb_logo.png" alt="Liquid Web">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.liquidweb.com/">Liquid Web Inc.</a> is a
         privately held, managed web hosting company founded in 1997. The
         company owns and operates three data center facilities located in
@@ -138,23 +137,23 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.elastic.co/">
+      <a target="_blank" rel="noopener" href="https://www.elastic.co/">
         <img src="/static/images/sponsors/elastic.svg" alt="Elastic" width="130">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.elastic.co">Elastic</a> is the company behind
-        the <a target="_blank" rel="noopener nofollow"
+        the <a target="_blank" rel="noopener"
         href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a>
         open source search and analytics engine, along with <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://www.elastic.co/products/logstash">Logstash</a>, <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://www.elastic.co/products/kibana">Kibana</a> (which
         lets you visualize your Elasticsearch data), and <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://www.elastic.co/products/beats">Beats</a>
         (lightweight agents for sending data to Logstash or
         Elasticsearch).
@@ -164,13 +163,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.datadoghq.com/">
+      <a target="_blank" rel="noopener" href="https://www.datadoghq.com/">
         <img src="/static/images/sponsors/datadog.png" alt="Datadog">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.datadoghq.com/">Datadog</a> supports MetaCPAN by
         providing monitoring and log analysis.
       </p>
@@ -179,13 +178,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.iban.com/">
+      <a target="_blank" rel="noopener" href="https://www.iban.com/">
         <img src="/static/images/sponsors/iban-logo.png" alt="IBAN" width="120">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.iban.com/">iban.com</a> provides enterprise-grade
         Software as a Service (SaaS) solutions for payment validation,
         Verification of Payee (VoP), and data retrieval, including
@@ -199,21 +198,21 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://deriv.com/careers/">
+      <a target="_blank" rel="noopener" href="https://deriv.com/careers/">
         <img src="/static/images/sponsors/deriv.svg" alt="Deriv" width="120">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://deriv.com">Deriv</a> is one of the world's largest
-        online brokers.  <a target="_blank" rel="noopener nofollow"
+        online brokers.  <a target="_blank" rel="noopener"
         href="https://deriv.com">Deriv</a> offers CFDs and other
         derivatives on forex, indices, cryptocurrencies, commodities, and
         synthetics to millions of registered users across the globe.
       </p>
       <p>
-        More than that, <a target="_blank" rel="noopener nofollow"
+        More than that, <a target="_blank" rel="noopener"
         href="https://deriv.com">Deriv</a> heavily relies on CPAN (and
         bring back a lot to it in return!) with its backend code being
         written in modern Perl and some great names being part of the
@@ -224,25 +223,25 @@
 
   <h2>Our Supporters</h2>
   <p>
-    These organizations support MetaCPAN through donations or in-kind services.
+    These organizations also contribute to MetaCPAN.
   </p>
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.mysociety.org/">
+      <a target="_blank" rel="noopener" href="https://www.mysociety.org/">
         <img src="/static/images/sponsors/mysociety-logo-white-background.jpg" alt="mySociety">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-       <a target="_blank" rel="noopener nofollow"
+       <a target="_blank" rel="noopener"
        href="https://www.mysociety.org/">mySociety</a> is a not for profit
        group pioneering the use of online technologies to empower citizens
        to take their first steps towards greater civic participation. We
        work across four interlinked practice areas: Transparency,
        Democracy, Climate and Community, each underpinned by research,
        sector building through TICTeC and appropriate commercial work via
-       <a target="_blank" rel="noopener nofollow"
+       <a target="_blank" rel="noopener"
        href="https://www.societyworks.org/">SocietyWorks</a>.
       </p>
     </div>
@@ -250,13 +249,13 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.fastmail.com/">
+      <a target="_blank" rel="noopener" href="https://www.fastmail.com/">
         <img src="/static/images/sponsors/fastmail.svg" alt="Fastmail" width="130">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
+        <a target="_blank" rel="noopener"
         href="https://www.fastmail.com/c/metacpan">Fastmail</a> is a
         commercial hosted email service founded in 1999, which has
         established a reputation for technical leadership in the hosted
@@ -264,15 +263,15 @@
         It is run by Fastmail Pty Ltd, an Australian company based in
         Melbourne. From their early days they've been users and supporters
         of Perl, and several of their developers are CPAN authors: <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://metacpan.org/author/BRONG">BRONG</a>, <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://metacpan.org/author/ROBN">ROBN</a>, <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://metacpan.org/author/RJBS">RJBS</a>, <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://metacpan.org/author/WOLFSAGE">WOLFSAGE</a> and <a
-        target="_blank" rel="noopener nofollow"
+        target="_blank" rel="noopener"
         href="https://metacpan.org/author/ROBM">ROBM</a> (one of the
         founders). In late 2015 they acquired pobox.com, another hosted
         mail company and longtime user and supporter of Perl.
@@ -280,14 +279,35 @@
     </div>
   </div>
 
-  <h2>Thanks</h2>
-  <p>
-    We also thank
-    <a target="_blank" rel="noopener nofollow" href="https://github.com/">GitHub</a>
-    and
-    <a target="_blank" rel="noopener nofollow" href="https://1password.com/">1Password</a>
-    for providing free accounts.
-  </p>
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener" href="https://github.com/">
+        <img src="/static/images/sponsors/github_logo.png" alt="GitHub" width="120">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener"
+        href="https://github.com/">GitHub</a> provides free organization
+        accounts for open source projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener" href="https://1password.com/">
+        <img src="/static/images/sponsors/1password.png" alt="1Password" width="140">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener"
+        href="https://1password.com/">1Password</a> provides free team
+        accounts for open source projects.
+      </p>
+    </div>
+  </div>
 
   <h2>Past Sponsors</h2>
   <p>
@@ -299,13 +319,13 @@
     <h2>Become a Sponsor</h2>
     <p>
       Your company's logo on MetaCPAN reaches thousands of Perl developers
-      daily. Sponsors get prominent placement on this page and in our site
-      footer, and help keep critical Perl infrastructure running for the
-      whole community.
+      daily. Footer sponsors get prominent placement on this page and in our
+      site footer &mdash; with followed links from every page &mdash; and
+      help keep critical Perl infrastructure running for the whole community.
     </p>
     <p>
       Contribute through
-      <a target="_blank" href="https://opencollective.com/metacpan-core" rel="noopener nofollow">our OpenCollective</a>
+      <a target="_blank" href="https://opencollective.com/metacpan-core" rel="noopener">our OpenCollective</a>
       or contact us at <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>
       to discuss sponsorship.
     </p>
