@@ -78,7 +78,6 @@
             margin-bottom: 0;
         }
     }
-
 }
 
 .sponsor-tiers {
@@ -170,7 +169,9 @@
     border-radius: 4px;
     font-size: 14px;
     text-decoration: none;
-    transition: background-color 0.15s, border-color 0.15s;
+    transition:
+        background-color 0.15s,
+        border-color 0.15s;
 }
 
 .sponsor-tier-btn-primary {
@@ -178,7 +179,8 @@
     color: #fff;
     border: 1px solid @linkColor;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background: darken(@linkColor, 10%);
         border-color: darken(@linkColor, 10%);
         color: #fff;
@@ -191,7 +193,8 @@
     color: @linkColor;
     border: 1px solid @linkColor;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         background: #f5f8fc;
         text-decoration: none;
     }

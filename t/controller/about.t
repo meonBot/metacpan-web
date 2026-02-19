@@ -51,14 +51,10 @@ test_psgi app, sub {
     }
 
     foreach my $test (@redirect_tests) {
-        ok( my $res = $cb->( GET $test->{url} ),
-            'GET ' . $test->{url} );
+        ok( my $res = $cb->( GET $test->{url} ), 'GET ' . $test->{url} );
         is( $res->code, 301, 'code 301 for ' . $test->{url} );
-        like(
-            $res->header('Location'),
-            qr/\Q$test->{redirect}\E$/,
-            'redirects to ' . $test->{redirect}
-        );
+        like( $res->header('Location'),
+            qr/\Q$test->{redirect}\E$/, 'redirects to ' . $test->{redirect} );
     }
 
 };
