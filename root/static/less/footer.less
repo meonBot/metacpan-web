@@ -23,13 +23,24 @@ html {
     grid-area: links;
 }
 
-.footer-links,
-.footer-sponsors {
+.footer-links {
     display: flex;
     column-gap: 20px;
     flex-wrap: wrap;
     justify-self: center;
     place-content: center;
+}
+
+.footer-sponsors {
+    justify-self: center;
+    place-content: center;
+}
+
+.footer-sponsor-row {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-link {
@@ -75,6 +86,10 @@ html {
         display: grid;
         margin-bottom: 10px;
         place-content: center;
+    }
+
+    .footer-sponsor-datadog {
+        width: 90px;
     }
 
     .footer-sponsor-deriv {
