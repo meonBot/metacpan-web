@@ -406,7 +406,6 @@ f99eaa4bd2db23997d6a3ff722edd4ffc65571c9  root/static/images/profile/tripadvisor
 7022b109b09a2167e7d2acdf7d4544886fa1c83c  root/static/images/profile/vimeo.png
 f9f0e31b575d54daff57a3ff7a5df362cfc37f92  root/static/images/profile/youtube.png
 161cb712a2298eeb3940afc710caf7f9f9194bef  root/static/images/sponsors/activestate.png
-16b8e4557ee882a3dd157170e08d1ededa18812a  root/static/images/sponsors/advance-systems.jpg
 ee9ccebabfe78643470da003d83e6b61608979f6  root/static/images/sponsors/booking.png
 8a01c9ce500f517cceded7e5b929b718af2f10e9  root/static/images/sponsors/bytemark_logo.svg
 12036785cf973c7340818e0837db942830dbf01e  root/static/images/sponsors/control-my-id.png
@@ -416,17 +415,14 @@ ee9ccebabfe78643470da003d83e6b61608979f6  root/static/images/sponsors/booking.pn
 8c9059f6ef31a420bfb9f6efb4ce01278e5a5740  root/static/images/sponsors/dyn.png
 a588394fcb496ee492d289d4db0e1d3624a34528  root/static/images/sponsors/easyname.png
 ad5fc6a8acfc28c3f2836e5265ed6607d2105f6a  root/static/images/sponsors/elastic.svg
-5d76d29f7e9ce2d323cef2c451cd26300e10c770  root/static/images/sponsors/epo.png
 affc39387e003c45463936607df8f48ff4727c2c  root/static/images/sponsors/fastly_logo.svg
 bf821b7f7ef4d00c61046141e8e28b9366eb3dbb  root/static/images/sponsors/fastmail.svg
 4b8d0d2d653d76dc59b446bd706b034a007f581a  root/static/images/sponsors/geocodelogo.svg
 ff77edb3ea13567310837717da9d2cdea155682c  root/static/images/sponsors/github_logo.png
 ddc82658ac274d981a7e3159fc4ed452166f73a4  root/static/images/sponsors/idonethis.png
-887d712f253b63e53319ad37cfcf3fdbd36e8a36  root/static/images/sponsors/kritika.svg
 45ae7ac5577e16b082966d44053844948ae627bc  root/static/images/sponsors/liquidweb_logo.png
 ddaa87b7948c4d46a51f763c80570c1767f1c0b4  root/static/images/sponsors/open-cage.svg
 7f77555505dfcb1a2c3b47bec95062fe2dd7a5da  root/static/images/sponsors/panopta.png
-fb43b99a721b83aeebf528977f3df7083a69289e  root/static/images/sponsors/perl-careers.png
 e7a33768fa5460562e48a3676fe048d3e261f8dd  root/static/images/sponsors/perl-services.svg
 5cdd9d7bda9936c0ab678063a93df341fd37acb1  root/static/images/sponsors/perl_logo.png
 e691cd3eb125c4b9e157a083a1c0a5f14e5a692a  root/static/images/sponsors/qah-2014.png
