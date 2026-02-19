@@ -128,7 +128,7 @@
   <div class="sponsor-card">
     <div class="sponsor-logo">
       <a target="_blank" rel="noopener nofollow" href="https://www.google.com">
-        Google
+        <img src="/static/images/sponsors/gsoc.svg" alt="Google Summer of Code" width="140">
       </a>
     </div>
     <div class="sponsor-info">
@@ -286,6 +286,23 @@
         <a target="_blank" rel="noopener nofollow"
         href="https://travis-ci.com">Travis CI</a> supported MetaCPAN by
         donating extra concurrent jobs.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://www.meetup.com/Vienna-Perl-Mongers/">
+        <img src="/static/images/sponsors/vienna.pm.jpeg" alt="Vienna Perl Mongers" width="140">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        The <a target="_blank" rel="noopener nofollow"
+        href="https://www.meetup.com/Vienna-Perl-Mongers/">Vienna Perl
+        Mongers</a> had some money left over from running YAPC::Europe 2007,
+        and they decided to use some of that to become a sponsor for
+        meta::hack — one part of the Perl community helping another!
       </p>
     </div>
   </div>
