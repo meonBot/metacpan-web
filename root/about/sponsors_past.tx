@@ -16,22 +16,31 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://route4me.com/">
-        <img src="/static/images/sponsors/route4me.png" alt="Route4Me" width="150">
+      <a target="_blank" rel="noopener nofollow" href="https://www.activestate.com/">
+        <img src="/static/images/sponsors/activestate.png" alt="ActiveState" width="130">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        Route4Me is a powerful route planning and optimization software
-        designed to streamline last-mile delivery and service operations.
-        It automates and integrates crucial workflows for route planners,
-        dispatchers, drivers, and managers, enhancing efficiency and
-        customer satisfaction. With features like real-time GPS tracking,
-        mobile apps, and seamless integration with other platforms,
-        Route4Me helps businesses save time, reduce fuel costs, and improve
-        overall operational efficiency. The software supports dynamic
-        routing and recurring route planning, making it adaptable for
-        various industries and business needs.
+        <a target="_blank" rel="noopener nofollow"
+        href="https://www.activestate.com">ActiveState</a> has been
+        providing software application development and management
+        solutions, especially around Perl, since 1997.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://www.booking.com/">
+        <img src="/static/images/sponsors/booking.png" alt="Booking.com" width="130">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener nofollow"
+        href="https://www.booking.com/">Booking.com</a> formerly provided
+        a server for testing and content backup.
       </p>
     </div>
   </div>
@@ -48,113 +57,6 @@
         href="https://control.my.id/">Control.My.ID</a> is a privacy
         platform bringing transparency and control to consumers and
         providing regulatory compliance to enterprises.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.yellowbot.com/">
-        <img src="/static/images/sponsors/yellowbot-small.png" alt="YellowBot" width="140">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://www.yellowbot.com/">YellowBot</a> is a business
-        search directory with more content and information about every
-        business than any platform.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://dyn.com">
-        <img src="/static/images/sponsors/dyn.png" alt="Dyn" width="130">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://dyn.com">Dyn</a> provided MetaCPAN with free DNS
-        hosting.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://travis-ci.com">
-        <img src="/static/images/sponsors/travis-ci.png" alt="Travis CI" width="140">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://travis-ci.com">Travis CI</a> supported MetaCPAN by
-        donating extra concurrent jobs.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.panopta.com/">
-        <img src="/static/images/sponsors/panopta.png" alt="Panopta" width="130">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://www.panopta.com/">Panopta</a> supported MetaCPAN with
-        a hosted server monitoring solution.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://idonethis.com/">
-        <img src="/static/images/sponsors/idonethis.png" alt="iDoneThis" width="130">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://idonethis.com/">iDoneThis</a> supported MetaCPAN by
-        donating a team account for project management.
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="http://act.qa-hackathon.org/qa2014/">
-        <img src="/static/images/sponsors/qah-2014.png" alt="QA Hackathon" width="120">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        The <a target="_blank" rel="noopener nofollow"
-        href="http://act.qa-hackathon.org/qa2014/">QA Hackathon</a>
-        sponsored the attendance of MetaCPAN hackers in Amsterdam (2011),
-        Paris (2012), Lyon (2014), Berlin (2015) and Rugby (2016).
-      </p>
-    </div>
-  </div>
-
-  <div class="sponsor-card">
-    <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.easyname.com/en">
-        <img src="/static/images/sponsors/easyname.png" alt="easyname" width="130">
-      </a>
-    </div>
-    <div class="sponsor-info">
-      <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://www.easyname.com/en">easyname.com</a> was the first
-        official sponsor of the MetaCPAN hackathon.
       </p>
     </div>
   </div>
@@ -178,49 +80,94 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.sonic.com/">
-        <img src="/static/images/sponsors/sonic.png" alt="Sonic" width="140">
+      <a target="_blank" rel="noopener nofollow" href="https://dealspotr.com/">
+        <img src="/static/images/sponsors/dealspotr.png" alt="Dealspotr" width="130">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
         <a target="_blank" rel="noopener nofollow"
-        href="https://www.sonic.com/">Sonic</a> was built in Perl and still
-        relies heavily on the language for all facets of their internal
-        software development.
+        href="https://dealspotr.com/">Dealspotr</a> is an active
+        contributor to the open source community and an enthusiastic
+        supporter of MetaCPAN's efforts to serve the Perl developer
+        community.
       </p>
     </div>
   </div>
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.activestate.com/">
-        <img src="/static/images/sponsors/activestate.png" alt="ActiveState" width="130">
+      <a target="_blank" rel="noopener nofollow" href="https://dyn.com">
+        <img src="/static/images/sponsors/dyn.png" alt="Dyn" width="130">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
         <a target="_blank" rel="noopener nofollow"
-        href="https://www.activestate.com">ActiveState</a> has been
-        providing software application development and management
-        solutions, especially around Perl, since 1997.
+        href="https://dyn.com">Dyn</a> provided MetaCPAN with free DNS
+        hosting.
       </p>
     </div>
   </div>
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.servercentral.com/">
-        <img src="/static/images/sponsors/servercentral.png" alt="ServerCentral" width="140">
+      <a target="_blank" rel="noopener nofollow" href="https://www.easyname.com/en">
+        <img src="/static/images/sponsors/easyname.png" alt="easyname" width="130">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
         <a target="_blank" rel="noopener nofollow"
-        href="https://www.servercentral.com">ServerCentral</a> is a
-        managed datacenter services provider. ServerCentral uses Perl for
-        inventory management, deployment systems, and numerous devops
-        related projects.
+        href="https://www.easyname.com/en">easyname.com</a> was the first
+        official sponsor of the MetaCPAN hackathon.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://www.google.com">
+        Google
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        MetaCPAN.org probably would not exist if it weren't for
+        <a target="_blank" rel="noopener nofollow"
+        href="https://www.google.com">Google</a>. This site was originally
+        built as a Google Summer of Code (GSoC) project. In 2014 GSoC also
+        sponsored Talina Shrotriya's work on MetaCPAN.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://idonethis.com/">
+        <img src="/static/images/sponsors/idonethis.png" alt="iDoneThis" width="130">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener nofollow"
+        href="https://idonethis.com/">iDoneThis</a> supported MetaCPAN by
+        donating a team account for project management.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://www.panopta.com/">
+        <img src="/static/images/sponsors/panopta.png" alt="Panopta" width="130">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener nofollow"
+        href="https://www.panopta.com/">Panopta</a> supported MetaCPAN with
+        a hosted server monitoring solution.
       </p>
     </div>
   </div>
@@ -244,32 +191,86 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://dealspotr.com/">
-        <img src="/static/images/sponsors/dealspotr.png" alt="Dealspotr" width="130">
+      <a target="_blank" rel="noopener nofollow" href="http://act.qa-hackathon.org/qa2014/">
+        <img src="/static/images/sponsors/qah-2014.png" alt="QA Hackathon" width="120">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        <a target="_blank" rel="noopener nofollow"
-        href="https://dealspotr.com/">Dealspotr</a> is an active
-        contributor to the open source community and an enthusiastic
-        supporter of MetaCPAN's efforts to serve the Perl developer
-        community.
+        The <a target="_blank" rel="noopener nofollow"
+        href="http://act.qa-hackathon.org/qa2014/">QA Hackathon</a>
+        sponsored the attendance of MetaCPAN hackers in Amsterdam (2011),
+        Paris (2012), Lyon (2014), Berlin (2015) and Rugby (2016).
       </p>
     </div>
   </div>
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.booking.com/">
-        <img src="/static/images/sponsors/booking.png" alt="Booking.com" width="130">
+      <a target="_blank" rel="noopener nofollow" href="https://route4me.com/">
+        <img src="/static/images/sponsors/route4me.png" alt="Route4Me" width="150">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        Route4Me is a powerful route planning and optimization software
+        designed to streamline last-mile delivery and service operations.
+        It automates and integrates crucial workflows for route planners,
+        dispatchers, drivers, and managers, enhancing efficiency and
+        customer satisfaction. With features like real-time GPS tracking,
+        mobile apps, and seamless integration with other platforms,
+        Route4Me helps businesses save time, reduce fuel costs, and improve
+        overall operational efficiency. The software supports dynamic
+        routing and recurring route planning, making it adaptable for
+        various industries and business needs.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://www.servercentral.com/">
+        <img src="/static/images/sponsors/servercentral.png" alt="ServerCentral" width="140">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
         <a target="_blank" rel="noopener nofollow"
-        href="https://www.booking.com/">Booking.com</a> formerly provided
-        a server for testing and content backup.
+        href="https://www.servercentral.com">ServerCentral</a> is a
+        managed datacenter services provider. ServerCentral uses Perl for
+        inventory management, deployment systems, and numerous devops
+        related projects.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://www.sonic.com/">
+        <img src="/static/images/sponsors/sonic.png" alt="Sonic" width="140">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener nofollow"
+        href="https://www.sonic.com/">Sonic</a> was built in Perl and still
+        relies heavily on the language for all facets of their internal
+        software development.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-card">
+    <div class="sponsor-logo">
+      <a target="_blank" rel="noopener nofollow" href="https://speedchilli.com">
+        <img src="/static/images/sponsors/speedchilli.png" alt="speedchilli" width="130">
+      </a>
+    </div>
+    <div class="sponsor-info">
+      <p>
+        <a target="_blank" rel="noopener nofollow"
+        href="https://speedchilli.com">speedchilli</a> provided MetaCPAN
+        with free hardware and bandwidth from 2010 to 2012.
       </p>
     </div>
   </div>
@@ -293,32 +294,31 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://speedchilli.com">
-        <img src="/static/images/sponsors/speedchilli.png" alt="speedchilli" width="130">
+      <a target="_blank" rel="noopener nofollow" href="https://travis-ci.com">
+        <img src="/static/images/sponsors/travis-ci.png" alt="Travis CI" width="140">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
         <a target="_blank" rel="noopener nofollow"
-        href="https://speedchilli.com">speedchilli</a> provided MetaCPAN
-        with free hardware and bandwidth from 2010 to 2012.
+        href="https://travis-ci.com">Travis CI</a> supported MetaCPAN by
+        donating extra concurrent jobs.
       </p>
     </div>
   </div>
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="https://www.google.com">
-        Google
+      <a target="_blank" rel="noopener nofollow" href="https://www.yellowbot.com/">
+        <img src="/static/images/sponsors/yellowbot-small.png" alt="YellowBot" width="140">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
-        MetaCPAN.org probably would not exist if it weren't for
         <a target="_blank" rel="noopener nofollow"
-        href="https://www.google.com">Google</a>. This site was originally
-        built as a Google Summer of Code (GSoC) project. In 2014 GSoC also
-        sponsored Talina Shrotriya's work on MetaCPAN.
+        href="https://www.yellowbot.com/">YellowBot</a> is a business
+        search directory with more content and information about every
+        business than any platform.
       </p>
     </div>
   </div>
