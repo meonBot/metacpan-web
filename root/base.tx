@@ -44,7 +44,7 @@
             %%  block header_nav_menu -> {
             <ul class="nav navbar-nav menu-items hidden-xs hidden-sm">
               <li><a href="/about">About</a></li>
-              <li><a href="/about/sponsors">Sponsor</a></li>
+              <li><a href="/about/sponsors/become">Sponsor</a></li>
               <li><a href="https://grep.metacpan.org/">grep::cpan</a></li>
               <li><a href="/recent">Recent</a></li>
               <li><a href="/about/faq">FAQ</a></li>

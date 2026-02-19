@@ -24,6 +24,11 @@
     </div>
   </div>
 
+  <p>
+    Interested in sponsoring MetaCPAN?
+    <a href="/about/sponsors/become">Learn about sponsorship &rarr;</a>
+  </p>
+
   <h2>Our Sponsors</h2>
   <p>
     These companies help keep MetaCPAN running.
@@ -108,7 +113,7 @@
   <div class="sponsor-card">
     <div class="sponsor-logo">
       <a target="_blank" rel="noopener" href="https://www.liquidweb.com/">
-        <img src="/static/images/sponsors/liquidweb_logo.png" alt="Liquid Web">
+        <img src="/static/images/sponsors/liquidweb_logo.png" alt="Liquid Web" width="150">
       </a>
     </div>
     <div class="sponsor-info">
@@ -164,7 +169,7 @@
   <div class="sponsor-card">
     <div class="sponsor-logo">
       <a target="_blank" rel="noopener" href="https://www.datadoghq.com/">
-        <img src="/static/images/sponsors/datadog.png" alt="Datadog">
+        <img src="/static/images/sponsors/datadog.png" alt="Datadog" width="150">
       </a>
     </div>
     <div class="sponsor-info">
@@ -315,20 +320,5 @@
     who have supported MetaCPAN over the years.
   </p>
 
-  <div class="sponsor-cta">
-    <h2>Become a Sponsor</h2>
-    <p>
-      Your company's logo on MetaCPAN reaches thousands of Perl developers
-      daily. Footer sponsors get prominent placement on this page and in our
-      site footer &mdash; with followed links from every page &mdash; and
-      help keep critical Perl infrastructure running for the whole community.
-    </p>
-    <p>
-      Contribute through
-      <a target="_blank" href="https://opencollective.com/metacpan-core" rel="noopener">our OpenCollective</a>
-      or contact us at <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>
-      to discuss sponsorship.
-    </p>
-  </div>
 </div>
 %%  }

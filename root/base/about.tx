@@ -10,6 +10,7 @@ for [
   [ 'FAQ',                      '/about/faq',           0 ],
   [ 'Contact',                  '/about/contact',       0 ],
   [ 'Sponsors',                 '/about/sponsors',      0 ],
+  [ 'Become a Sponsor',         '/about/sponsors/become', 0 ],
   [ 'For Contributors',         '',                     1 ],
   [ 'Contributing',             '/about/contributing',  0 ],
   [ 'GitHub Leaderboard',       '/about/contributors',  0 ],

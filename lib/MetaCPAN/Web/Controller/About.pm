@@ -48,6 +48,10 @@ sub sponsors_past : Path('sponsors/past') : Args(0) {
     my ( $self, $c ) = @_;
 }
 
+sub sponsors_become : Path('sponsors/become') : Args(0) {
+    my ( $self, $c ) = @_;
+}
+
 sub faq : Local : Args(0) {
     my ( $self, $c ) = @_;
 }
