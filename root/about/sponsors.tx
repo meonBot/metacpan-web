@@ -60,7 +60,7 @@
   <div class="sponsor-card">
     <div class="sponsor-logo">
       <a target="_blank" rel="noopener" href="https://www.datadoghq.com/">
-        <img src="/static/images/sponsors/datadog.png" alt="Datadog" width="150">
+        <img src="/static/images/sponsors/datadog.svg" alt="Datadog" width="150">
       </a>
     </div>
     <div class="sponsor-info">

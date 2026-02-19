@@ -185,7 +185,7 @@
                   <img class="footer-sponsor-bytemark" src="/static/images/sponsors/bytemark_logo.svg" alt="Bytemark">
                 </a>
                 <a class="footer-sponsor-link" target="_blank" href="https://www.datadoghq.com/" rel="noopener" title="Datadog">
-                  <img class="footer-sponsor-datadog" src="/static/images/sponsors/datadog.png" alt="Datadog">
+                  <img class="footer-sponsor-datadog" src="/static/images/sponsors/datadog.svg" alt="Datadog">
                 </a>
                 <a class="footer-sponsor-link" target="_blank" href="https://deriv.com/careers/" rel="noopener" title="Deriv">
                   <img class="footer-sponsor-deriv" src="/static/images/sponsors/deriv.svg" alt="Deriv">
