@@ -191,14 +191,14 @@
 
   <div class="sponsor-card">
     <div class="sponsor-logo">
-      <a target="_blank" rel="noopener nofollow" href="http://act.qa-hackathon.org/qa2014/">
+      <a target="_blank" rel="noopener nofollow" href="https://perltoolchainsummit.org/qa2014/">
         <img src="/static/images/sponsors/qah-2014.png" alt="QA Hackathon" width="120">
       </a>
     </div>
     <div class="sponsor-info">
       <p>
         The <a target="_blank" rel="noopener nofollow"
-        href="http://act.qa-hackathon.org/qa2014/">QA Hackathon</a>
+        href="https://perltoolchainsummit.org/qa2014/">QA Hackathon</a>
         sponsored the attendance of MetaCPAN hackers in Amsterdam (2011),
         Paris (2012), Lyon (2014), Berlin (2015) and Rugby (2016).
       </p>
