@@ -226,7 +226,7 @@
   </div>
 
   <div class="sponsor-card">
-    <div class="sponsor-logo">
+    <div class="sponsor-logo sponsor-logo-dark">
       <a target="_blank" rel="noopener nofollow" href="https://www.perl-services.de/">
         <img src="/static/images/sponsors/perl-services.svg" alt="Perl Services" width="130">
       </a>
