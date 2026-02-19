@@ -20,27 +20,12 @@ html {
 }
 
 .footer-links {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
     grid-area: links;
-}
-
-.footer-links {
-    display: flex;
-    column-gap: 20px;
-    flex-wrap: wrap;
     justify-self: center;
     place-content: center;
-}
-
-.footer-sponsors {
-    justify-self: center;
-    place-content: center;
-}
-
-.footer-sponsor-row {
-    display: flex;
-    column-gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .footer-link {
@@ -79,6 +64,7 @@ html {
 
 .footer-sponsors {
     grid-area: sponsors;
+    justify-self: center;
     margin-top: 30px;
     max-width: 920px;
 
@@ -127,7 +113,14 @@ html {
     .footer-sponsor-tprf {
         width: 40px;
     }
+}
 
+.footer-sponsor-row {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .footer-logo {
