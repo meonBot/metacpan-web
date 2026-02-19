@@ -128,7 +128,7 @@
   <div class="sponsor-card">
     <div class="sponsor-logo">
       <a target="_blank" rel="noopener nofollow" href="https://www.google.com">
-        Google
+        <img src="/static/images/sponsors/gsoc.svg" alt="Google Summer of Code" width="140">
       </a>
     </div>
     <div class="sponsor-info">

@@ -418,6 +418,7 @@ ad5fc6a8acfc28c3f2836e5265ed6607d2105f6a  root/static/images/sponsors/elastic.sv
 affc39387e003c45463936607df8f48ff4727c2c  root/static/images/sponsors/fastly_logo.svg
 bf821b7f7ef4d00c61046141e8e28b9366eb3dbb  root/static/images/sponsors/fastmail.svg
 4b8d0d2d653d76dc59b446bd706b034a007f581a  root/static/images/sponsors/geocodelogo.svg
+499248b6fe0ac4614b255ad2b9e7247957da7069  root/static/images/sponsors/gsoc.svg
 ff77edb3ea13567310837717da9d2cdea155682c  root/static/images/sponsors/github_logo.png
 ddc82658ac274d981a7e3159fc4ed452166f73a4  root/static/images/sponsors/idonethis.png
 45ae7ac5577e16b082966d44053844948ae627bc  root/static/images/sponsors/liquidweb_logo.png
