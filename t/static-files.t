@@ -432,5 +432,3 @@ f251ab8c5c58c9c87bbd2e6042d9b2574cd0bc8b  root/static/images/sponsors/speedchill
 28b210ec069326d1914b54186854e278b874e08e  root/static/images/sponsors/travis-ci.png
 d1756602e3883c084a901338b96d8a03b8b540b9  root/static/images/sponsors/vienna.pm.jpeg
 6df4cc414faac9f34dcac688d4edc19757bc61f3  root/static/images/sponsors/yellowbot-small.png
-7d258eae0a03c68f57f87b385e5df233aa62fb57  root/static/images/sponsors/yellowbot.png
-f00590419c1aa7a25f90da433e939e89468da3a7  root/static/images/sponsors/yellowbot_2.png
