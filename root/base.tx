@@ -180,32 +180,41 @@
               </div>
             </div>
             <div class="footer-sponsors">
-              <a class="footer-sponsor-link" target="_blank" href="https://www.bytemark.co.uk/" rel="noopener">
-                <img class="footer-sponsor-bytemark" src="/static/images/sponsors/bytemark_logo.svg" alt="Bytemark logo">
-              </a>
-              <a class="footer-sponsor-link" target="_blank" href="https://www.liquidweb.com/" rel="noopener">
-                <img class="footer-sponsor-liquidweb" src="/static/images/sponsors/liquidweb_logo.png" alt="liquidweb logo">
-              </a>
-              <a class="footer-sponsor-link" target="_blank" href="https://deriv.com/careers/" rel="noopener">
-                <img class="footer-sponsor-deriv" src="/static/images/sponsors/deriv.svg" alt="Deriv logo">
-              </a>
-              <a class="footer-sponsor-link" target="_blank" href="https://geocode.xyz" rel="noopener">
-                <img class="footer-sponsor-geocode" src="/static/images/sponsors/geocodelogo.svg" alt="Geocode logo">
-              </a>
-              <a class="footer-sponsor-link" target="_blank" href="https://www.fastly.com/" rel="noopener">
-                <img class="footer-sponsor-fastly" src="/static/images/sponsors/fastly_logo.svg" alt="Fastly logo">
-              </a>
-              <a class="footer-sponsor-link" target="_blank" href="https://opencagedata.com" rel="noopener">
-                <img class="footer-sponsor-opencage" src="/static/images/sponsors/open-cage.svg" alt="OpenCage logo">
-              </a>
-              <!-- Added 2024-07-22 -->
-              <a class="footer-sponsor-link" target="_blank" href="https://www.elastic.co/" rel="noopener">
-                <img class="footer-sponsor-elastic" src="/static/images/sponsors/elastic.svg" alt="Elastic logo">
-              </a>
-              <!-- Added 2026-01-06 -->
-              <a class="footer-sponsor-link" target="_blank" href="https://www.iban.com/" rel="noopener">
-                <img class="footer-sponsor-iban" src="/static/images/sponsors/iban-logo.png" alt="IBAN logo">
-              </a>
+              <div class="footer-sponsor-row">
+                <a class="footer-sponsor-link" target="_blank" href="https://www.bytemark.co.uk/" rel="noopener" title="Bytemark">
+                  <img class="footer-sponsor-bytemark" src="/static/images/sponsors/bytemark_logo.svg" alt="Bytemark">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://www.datadoghq.com/" rel="noopener" title="Datadog">
+                  <img class="footer-sponsor-datadog" src="/static/images/sponsors/datadog.svg" alt="Datadog">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://deriv.com/careers/" rel="noopener" title="Deriv">
+                  <img class="footer-sponsor-deriv" src="/static/images/sponsors/deriv.svg" alt="Deriv">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://www.elastic.co/" rel="noopener" title="Elastic">
+                  <img class="footer-sponsor-elastic" src="/static/images/sponsors/elastic.svg" alt="Elastic">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://www.fastly.com/" rel="noopener" title="Fastly">
+                  <img class="footer-sponsor-fastly" src="/static/images/sponsors/fastly_logo.svg" alt="Fastly">
+                </a>
+              </div>
+              <div class="footer-sponsor-row">
+                <a class="footer-sponsor-link" target="_blank" href="https://geocode.xyz" rel="noopener" title="Geolytica">
+                  <img class="footer-sponsor-geocode" src="/static/images/sponsors/geocodelogo.svg" alt="Geolytica">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://www.iban.com/" rel="noopener" title="IBAN">
+                  <img class="footer-sponsor-iban" src="/static/images/sponsors/iban-logo.png" alt="IBAN">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://www.liquidweb.com/" rel="noopener" title="Liquid Web">
+                  <img class="footer-sponsor-liquidweb" src="/static/images/sponsors/liquidweb_logo.png" alt="Liquid Web">
+                </a>
+                <a class="footer-sponsor-link" target="_blank" href="https://opencagedata.com" rel="noopener" title="OpenCage">
+                  <img class="footer-sponsor-opencage" src="/static/images/sponsors/open-cage.svg" alt="OpenCage">
+                </a>
+                <!-- Keep until at least March 1, 2027 -->
+                <a class="footer-sponsor-link" target="_blank" href="https://www.perlfoundation.org/" rel="noopener" title="The Perl and Raku Foundation">
+                  <img class="footer-sponsor-tprf" src="/static/images/sponsors/perl-onion.svg" alt="The Perl and Raku Foundation">
+                </a>
+              </div>
             </div>
           </div>
         </footer>

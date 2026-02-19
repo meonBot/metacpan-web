@@ -12,7 +12,7 @@
     %%  }
     %%  else {
           <h4>Something missing?
-              <a href="/about/missing_modules">Find out why</a>
+              <a href="/about/faq#why-is-a-specific-module-not-found">Find out why</a>
           </h4>
           <p> Sorry, we didn't find a match. Maybe look at <a href="/pod/Task::Kensho">Task::Kensho</a>,<br>
           which is a list of recommended modules for Enlightened Perl development.

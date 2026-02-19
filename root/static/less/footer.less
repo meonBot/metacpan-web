@@ -20,14 +20,10 @@ html {
 }
 
 .footer-links {
-    grid-area: links;
-}
-
-.footer-links,
-.footer-sponsors {
     display: flex;
     column-gap: 20px;
     flex-wrap: wrap;
+    grid-area: links;
     justify-self: center;
     place-content: center;
 }
@@ -68,13 +64,18 @@ html {
 
 .footer-sponsors {
     grid-area: sponsors;
+    justify-self: center;
     margin-top: 30px;
-    max-width: 850px;
+    max-width: 920px;
 
     .footer-sponsor-link {
         display: grid;
         margin-bottom: 10px;
         place-content: center;
+    }
+
+    .footer-sponsor-datadog {
+        width: 90px;
     }
 
     .footer-sponsor-deriv {
@@ -105,13 +106,21 @@ html {
         width: 100px;
     }
 
-    .footer-sponsor-route4me {
-        width: 110px;
-    }
-
     .footer-sponsor-iban {
         width: 70px;
     }
+
+    .footer-sponsor-tprf {
+        width: 40px;
+    }
+}
+
+.footer-sponsor-row {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .footer-logo {

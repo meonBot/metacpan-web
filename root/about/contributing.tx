@@ -1,9 +1,8 @@
 %%  cascade base::about::markdown {
-%%      title => $title || 'Development',
+%%      title => $title || 'Contributing',
 %%  }
 %%  override about -> {
-# Development
-
+# Contributing
 
 ## MetaCPAN Needs You!
 
@@ -12,9 +11,7 @@ Our stack includes Catalyst, Minion, Plack, Elasticsearch, jQuery, Bootstrap
 and NGINX.  We also use Puppet and Ansible for deployment and Docker for
 development VMs.  We have integration with GitHub, PAUSE, and Google.
 All code is managed on GitHub and we have an active channel (#metacpan) on
-irc.perl.org.  Try the <a
-href="https://widget01.mibbit.com/?autoConnect=true&server=irc.perl.org&channel=%23metacpan&nick=">mibbit
-web client</a> to access the channel.
+irc.perl.org.
 
 There are many available projects within MetaCPAN which you could take on or
 contribute to and there is also room for you to suggest improvements which you
@@ -22,9 +19,26 @@ would like to make.
 
 The [wishlist](https://github.com/metacpan/metacpan-api/wiki/Wishlist) contains
 (larger) items that we want to 'get around to'.
-The project list is ever growing and subject to change as
-volunteers take items on, but here's a sampling of what we'd love for you to
-consider working on.
+
+A good first read is the "[How to contribute](https://github.com/metacpan/metacpan-web/blob/master/.github/CONTRIBUTING.md)" document.
+
+## Source Code
+
+MetaCPAN consists of [many projects](https://github.com/metacpan). The main
+repositories are:
+
+* Front end: [github.com/metacpan/metacpan-web](https://github.com/metacpan/metacpan-web) — this is what you are looking at right now.
+* API: [github.com/metacpan/metacpan-api](https://github.com/metacpan/metacpan-api) — the back end REST API to data around CPAN and its ecosystem.
+* Swagger docs: [api.metacpan.org/v1/static/index.html](https://api.metacpan.org/v1/static/index.html)
+* Example scripts: [github.com/metacpan/metacpan-examples](https://github.com/metacpan/metacpan-examples)
+
+## Bug Reporting
+
+Bugs in the behaviour of this site can be reported at
+[GitHub](https://github.com/metacpan/metacpan-web). Feel free to post all bug
+reports related to this web site and web service here. If your reports belong
+in a different MetaCPAN project, we will happily move them to the right
+location. If in doubt, open a new issue.
 
 ## Improve Search
 
@@ -32,7 +46,6 @@ metacpan.org already has workable search functionality, but it could be
 improved a lot.  This is our main pain point.  We need help in the following
 areas:
 
-* Porting our Elasticsearch from 2.4.3 to the latest version
 * Optimizing current searches so that they return results faster
 * Improving the current search to return more relevant results
 * Adding the ability to search on other things, like authors
@@ -40,9 +53,7 @@ areas:
 
 You do not need to have any working knowledge of Elasticsearch in order to take
 this on.  We are here to point you at the resources you need to be successful
-with this.  Taking this on means you'll learn a lot about Elasticsearch and
-you'll get experience working with a lot of data at once.  These are skills
-which can benefity you greatly in your professional life working in IT.
+with this.
 
 ## Bug Fixes
 
@@ -53,7 +64,6 @@ enthusiasm with which people are helping us track ways to improve.  Starting
 with some open issues would be a good way to familiarize yourself with our
 codebase.
 
-
 ## API Documentation
 
 Because things traditionally have changed so rapidly, our documentation has
@@ -61,7 +71,7 @@ either not kept up or not been written to completion.  You can help us (and
 many Perl developers) by documenting the API and posting example code for both
 new and experienced MetaCPAN users.
 
-## What Can We Offer you?
+## What Can We Offer You?
 
 It's already clear from the materials above that there are many ways for you to
 make your mark on MetaCPAN, but what can we offer you?  You will have the
@@ -90,17 +100,5 @@ in touch.  If you just want to see how you like the project, feel free to get
 involved via GitHub, IRC or both.  We'll guide you through the process and you
 can decide for yourself if it's a good fit for you.  We look forward to hearing
 from you.
-
-A good first read is the "[How to contribute](https://github.com/metacpan/metacpan-web/blob/master/.github/CONTRIBUTING.md)" document.
-
-  Main repositories:
-
-  Front end: [https://github.com/metacpan/metacpan-web](https://github.com/metacpan/metacpan-web)
-
-  API: [https://github.com/metacpan/metacpan-api](https://github.com/metacpan/metacpan-api)
-
-  Swagger docs: [https://api.metacpan.org/v1/static/index.html](https://api.metacpan.org/v1/static/index.html)
-
-  Example scripts: [https://github.com/metacpan/metacpan-examples](https://github.com/metacpan/metacpan-examples)
 
 %%  }

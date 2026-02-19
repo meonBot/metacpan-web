@@ -1,0 +1,93 @@
+%%  cascade base::about {
+%%      title => $title || 'Sponsor MetaCPAN',
+%%  }
+%%  override content -> {
+<div class="about-sponsor">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Sponsor MetaCPAN</h1>
+      <p>
+        MetaCPAN is the search engine for Perl &mdash; used by thousands of
+        developers every day to find, understand, and evaluate CPAN modules.
+        Our audience is senior engineers, tech leads, and engineering
+        decision-makers. Sponsoring MetaCPAN puts your brand in front of
+        this audience while supporting critical open source infrastructure.
+      </p>
+    </div>
+  </div>
+
+  <div class="sponsor-tiers">
+    <div class="sponsor-tier sponsor-tier-featured">
+      <div class="sponsor-tier-badge">Most Popular</div>
+      <h2>Footer Logo Sponsor</h2>
+      <div class="sponsor-tier-price">
+        $4,000<span>/year</span>
+        <div class="sponsor-tier-price-alt">or $500/month</div>
+      </div>
+      <ul>
+        <li>Your logo on every page of metacpan.org</li>
+        <li>Followed link from every page &mdash; real SEO value</li>
+        <li>Logo and description on our <a href="/about/sponsors">sponsors page</a></li>
+        <li>Followed link from sponsors page</li>
+        <li>Our sincere gratitude</li>
+      </ul>
+      <div class="sponsor-tier-actions">
+        <a class="sponsor-tier-btn sponsor-tier-btn-primary" target="_blank" rel="noopener"
+        href="https://opencollective.com/metacpan-core/contribute/footer-logo-sponsor-42525/checkout">I
+        want to sponsor yearly</a>
+        <a class="sponsor-tier-btn sponsor-tier-btn-secondary" target="_blank" rel="noopener"
+        href="https://opencollective.com/metacpan-core/contribute/footer-logo-sponsor-43706/checkout">I
+        want to sponsor monthly</a>
+      </div>
+      <p class="sponsor-tier-note">
+        Please email <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>
+        before donating so we can set up your logo and listing.
+      </p>
+    </div>
+
+    <div class="sponsor-tier">
+      <h2>Sponsor Page Listing</h2>
+      <div class="sponsor-tier-price">
+        $500<span>/year</span>
+      </div>
+      <ul>
+        <li>Logo and description on our <a href="/about/sponsors">sponsors page</a></li>
+        <li>Followed link from sponsors page</li>
+        <li>Our sincere gratitude</li>
+      </ul>
+      <div class="sponsor-tier-actions">
+        <a class="sponsor-tier-btn sponsor-tier-btn-primary" target="_blank" rel="noopener"
+        href="https://opencollective.com/metacpan-core/contribute/sponsor-page-listing-47915/checkout">Add
+        me to the sponsor page</a>
+      </div>
+    </div>
+
+    <div class="sponsor-tier">
+      <h2>Individual Donations</h2>
+      <ul>
+        <li>One-time or recurring, from $5/month</li>
+        <li>Listed as a backer on OpenCollective</li>
+        <li>Our sincere gratitude</li>
+      </ul>
+      <div class="sponsor-tier-actions">
+        <a class="sponsor-tier-btn sponsor-tier-btn-primary" target="_blank" rel="noopener"
+        href="https://opencollective.com/metacpan-core/contribute/backer-42524/checkout">I
+        want to donate $5/month</a>
+        <a class="sponsor-tier-btn sponsor-tier-btn-secondary" target="_blank" rel="noopener"
+        href="https://opencollective.com/metacpan-core/donate">I
+        want to donate a different amount</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="sponsor-tiers-contact">
+    For custom arrangements or questions, contact us at
+    <a href="mailto:noc@metacpan.org">noc@metacpan.org</a>.
+  </p>
+
+  <p>
+    See our <a href="/about/sponsors">current sponsors</a> and
+    <a href="/about/sponsors/past">past sponsors</a>.
+  </p>
+</div>
+%%  }
