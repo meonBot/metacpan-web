@@ -89,7 +89,7 @@ sub by_releases {
                 }
             )->then( sub {
                 my $response = shift;
-                my @changes  = @{ $response->{changes} };
+                my @changes  = @{ $response->{changes} // [] };
 
                 my %changelogs;
 
